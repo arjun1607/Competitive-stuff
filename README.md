@@ -1,2 +1,2 @@
 # Competitive-stuff
-My competitive templates
+My Competitive templates
