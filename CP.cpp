@@ -102,43 +102,6 @@ ll lcm(ll a, ll b){
 /*------------------------------------------------------------------------------------------------------*/
 
 void solve(){
-    /*
-    int n; cin>>n;
-    int arr[n]; for(int i=0;i<n;i++) cin>>arr[i];
-      int min=INT_MAX, secmin=INT_MAX;
-       for(int i=0;i<n;i++){
-           if(arr[i]<min)
-               secmin=min, min=arr[i];
-           else if(arr[i]<secmin) secmin=arr[i];
-       }
-       int diff=secmin-min;
-       unordered_map<int,int> m;
-       for(int i=0;i<n;i++) m[arr[i]]++;
-       for(int i=0;i<n;i++){
-           if(m.find(min+i*diff) != m.end()){
-               m[min+i*diff]--;
-               if(m[min+i*diff]==0) m.erase(min+i*diff);
-           }
-       }
-       if(m.empty()) cout<<"true";
-       else cout<<"false"; 
-       */
-      
-    ll h1, a1, h2, a2, k, h, a;
-    cin>>h1>>a1;
-    cin>>h2>>a2;
-    cin>>k>>a>>h;
- 
-    for(int i=0; i<=k; i++)
-    {
-        ll ch = h1+(i*h);
-        ll ca = a1+((k-i)*a);
-        ll r1 = ((h2-1)/ca) + 1;
-        ll r2 = ((ch-1)/a2) + 1;
-        if(r1<=r2) { cout<<"YES"<<endl; return; }
-    }
- 
-    cout<<"NO"<<endl;
 
 }   
 
